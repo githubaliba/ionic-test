@@ -39,13 +39,11 @@ const Tab3: React.FC = () => {
       </IonHeader>
       <IonContent fullscreen>
         <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Profile</IonTitle>
-          </IonToolbar>
+          <IonToolbar></IonToolbar>
         </IonHeader>
-        <IonButton onClick={takePicture}>Take Photo of Insurance</IonButton>
-
-        <ExploreContainer name="Profile" />
+        <IonButton className="container" onClick={takePicture}>
+          Take Photo of Insurance
+        </IonButton>
       </IonContent>
     </IonPage>
   );
