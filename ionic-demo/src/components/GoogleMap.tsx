@@ -34,6 +34,10 @@ const MyMap: React.FC = () => {
           display: "inline-block",
           width: 2000,
           height: 800,
+          maxWidth: "100%",
+          minWidth: "100%",
+          maxHeight: "35rem",
+          minHeight: "25rem",
         }}
       ></capacitor-google-map>
 
