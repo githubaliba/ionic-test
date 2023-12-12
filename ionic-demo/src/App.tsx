@@ -40,7 +40,7 @@ const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>
       <IonTabs>
-        <IonRouterOutlet>
+        <IonRouterOutlet placeholder={undefined}>
           <Route exact path="/tab1">
             <Tab1 />
           </Route>
